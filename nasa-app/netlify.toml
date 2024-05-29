@@ -1,4 +1,8 @@
-[[redirect]]
-from = "https://vivek-pandey-nasa-api.netlify.app"
-to = "/index.htm"
-status = 200
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
