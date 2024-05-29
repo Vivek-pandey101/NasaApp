@@ -1,0 +1,4 @@
+[[redirect]]
+from = "https://vivek-pandey-nasa-api.netlify.app"
+to = "/index.htm"
+status = 200
